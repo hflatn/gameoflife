@@ -1,19 +1,29 @@
 import React, { Component } from 'react';
-import boards from './board.css';
+import GridSlot from './gridSlot';
+import './board.css';
+import './gridSlot.css';
 
 
 class board extends Component {
     state = {  }
+
+    
     render() { 
         return (
-             <React.Component>
+             <React.Fragment>
 
+            
                 <div className = "outline">
+                   <GridSlot>
+
+                   </GridSlot>
 
                 </div>
 
+                
 
-        </React.Component> 
+
+        </React.Fragment> 
         );
     }
 }
