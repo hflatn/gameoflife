@@ -1,18 +1,15 @@
-import React, {components} from 'React';
+import React, { Component } from 'react';
 
 class menu extends Component {
     state = {  }
     render() { 
         return ( 
-        <React.Fragment>
+                <React.Fragment>
 
 
+                </React.Fragment>
 
-
-
-
-        </React.Fragment> 
-        );
+         );
     }
 }
  

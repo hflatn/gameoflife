@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Board from './board';
+import Menu from './menu';
 
 class EntirePage extends Component {
     state = {  }
@@ -8,7 +9,11 @@ class EntirePage extends Component {
             <React.Fragment>
 
 
-            
+            <Board>
+            </Board>
+
+            <Menu>
+            </Menu>
 
 
             </React.Fragment>

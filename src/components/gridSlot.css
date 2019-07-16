@@ -1,6 +1,14 @@
-.slot{
+.slot_white{
     width: 15px;
     height: 15px;
     outline: 1px solid;
     float: left;
+}
+
+.slot_black{
+    width: 15px;
+    height: 15px;
+    outline: 1px solid;
+    float: left;
+    background-color: black;
 }
